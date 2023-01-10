@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackgroundpng"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SelectRegistrationActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:src="@drawable/donoregistration" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Be the reason for someone's heartbeat."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    app:civ_border_color="@color/red_primary"
+                    app:civ_border_width="2dp"
+                    android:src="@drawable/avataricon"/>
+
+            <EditText
+                android:id="@+id/registerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="ID"
+                android:drawablePadding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_id"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/registerfullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Name"
+                android:drawablePadding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_person"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/registerPhonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:drawablePadding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_phone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Email"
+                android:drawablePadding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_marginLeft="20dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginRight="20dp"/>
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Password"
+                android:drawablePadding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_lock"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPassword"
+                android:layout_marginRight="20dp"/>
+
+            <Spinner
+                android:id="@+id/bloodGroupSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:entries="@array/bloodgroups"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textColor="@color/red_primary"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/registerButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#F84971"
+                android:padding="16dp"
+                android:text="SIGN UP NOW"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Already Registered? Sign In"
+                android:textColor="#6E6D6D"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

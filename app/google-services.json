@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3763067123",
+    "firebase_url": "https://greenbloodbank-b5414-default-rtdb.firebaseio.com",
+    "project_id": "greenbloodbank-b5414",
+    "storage_bucket": "greenbloodbank-b5414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3763067123:android:a6b94356151c436d7dbf86",
+        "android_client_info": {
+          "package_name": "com.example.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3763067123-ahcsb59ohgdo6l7d9ohfo21fv60qgt5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvb7n0pvAKo084IcpzWf8sNQ0VTf_DJuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3763067123-ahcsb59ohgdo6l7d9ohfo21fv60qgt5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
